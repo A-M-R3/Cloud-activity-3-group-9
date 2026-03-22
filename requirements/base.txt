@@ -1,1 +1,5 @@
 fastapi==0.100.1
+tortoise-orm
+aerich
+asyncpg
+pydantic-settings

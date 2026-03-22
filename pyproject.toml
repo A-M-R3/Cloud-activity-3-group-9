@@ -12,7 +12,8 @@ extend-select = [
     "I",
 ]
 ignore = ["E501"]
+
 [tool.aerich]
-tortoise_orm = "app.database.TORTOISE_ORM"
+tortoise_orm = "app.config.TORTOISE_ORM"
 location = "./migrations"
-src_folder = "./."
+src_folder = "./app"
